@@ -1,0 +1,13 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+  		-I have learned how to more clearly articulate my html structure using a tree-diagram, as well as better resources for looking up HTML reference.
+  		-How to read markup language.
+  		-I have had a moderate level of familiarity with HTML, so it has all been decently easy so far.
+  		-Organizing my local directory with all of these file downloads has been the most challenging ;)
+  		-The Mozilla MDN forums are definitely beneficial for research. I also set up an organization strategy to help me not get confused by all the `index.html`s

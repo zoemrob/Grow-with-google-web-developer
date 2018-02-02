@@ -18,3 +18,4 @@ rgb(red, green, blue)
 //hexadecimal
 00-FF
 #ff00ff
+#8001ff - Udacity purple

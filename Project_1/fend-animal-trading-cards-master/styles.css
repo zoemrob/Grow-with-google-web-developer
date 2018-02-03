@@ -1,0 +1,47 @@
+#animal-card-1 {
+	width:300px;
+	padding: 15px;
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 10px;
+	background-image: url("south-america-background.jpeg");
+	background-clip: border-box;
+	background-position: center;
+	background-origin: padding-box;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	box-shadow: 15px 10px 10px #414142; 
+}
+
+.animal-card-name {
+	background-color: #e0e1e2;
+	border-width: 1px;
+	border-style: solid;
+	padding: 10px;
+}
+
+.animal-photo {
+	padding-bottom: 15px;
+}
+
+.description {
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #e0e1e2;
+}
+
+.description-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.description-special {
+	font-style: italic;
+}
+
+.label {
+	font-weight: bold;
+}
+

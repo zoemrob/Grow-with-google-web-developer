@@ -19,3 +19,5 @@ rgb(red, green, blue)
 00-FF
 #ff00ff
 #8001ff - Udacity purple
+
+<link href="reference path" rel="stylesheet">

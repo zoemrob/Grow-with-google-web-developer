@@ -47,3 +47,7 @@ switch (option) {
 		console.log('You selected option 5\.')
 }
 //returns 'You selected option 3.'
+
+// to print out the average salary with commas (i.e. 59,124), 
+// use the toLocalString() method and pass it the locale 'en-US'. 
+// For example, salary.toLocaleString('en-US').

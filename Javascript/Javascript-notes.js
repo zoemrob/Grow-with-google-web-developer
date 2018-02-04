@@ -51,3 +51,7 @@ switch (option) {
 // to print out the average salary with commas (i.e. 59,124), 
 // use the toLocalString() method and pass it the locale 'en-US'. 
 // For example, salary.toLocaleString('en-US').
+
+var x = 0;
+x++; //returns 0, increments x
+++x; //increments x, returns 1

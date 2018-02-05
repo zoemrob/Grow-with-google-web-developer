@@ -122,3 +122,11 @@ movies(function displayFavorite(movieName) {
 
 // returns 'My favorite movie is Finding Nemo'
 // this is typically used when you are just going to be using the function one time.
+
+/* 
+	Awesome idea: usin the hoisting/function expression in a class. So define the class
+	with an abstract class, extend the class, and have the `constructor` evaluate a conditional statement, 
+	and if it is true: assign the inherited abstract or interface method one function expression,
+	if it is false: assign the inherited abstract or interface method another function expression.
+	
+*/

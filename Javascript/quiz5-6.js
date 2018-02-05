@@ -12,10 +12,10 @@ function emotions(myString, myFunc) {
 // inline function expression
 
 emotions('happy', function laugh(num) {
-    var laughs = '';
-    for (let i = 0; i < num; i++) {
-        laughs += 'ha';
-    }
-    return laughs + '!';
+	var laughs = '';
+	for (let i = 0; i < num; i++) {
+	    laughs += 'ha';
+	}
+	return laughs + '!';
 })
 //returns 'I am happy, haha!'

@@ -55,3 +55,70 @@ switch (option) {
 var x = 0;
 x++; //returns 0, increments x
 ++x; //increments x, returns 1
+
+// Function Declaration
+function catSays(max) {
+	var catMessage = "";
+  	for (var i = 0; i < max; i++) {
+    catMessage += "meow ";
+  }
+  return catMessage;
+}
+/* 
+	Function Declarations are hoisted (pulled by the JavaScript interpreter to the top of the code at runtime)
+*/
+
+
+// Anonymous Function Expression
+
+var catSays = function(max) {
+	var catMessage = "";
+	for (var i = 0; i < max; i++) {
+		catMessage += "meow ";
+	}
+  	return catMessage;
+};
+
+// call with catSays(arg)
+// Function Expressions are NOT hoisted. The variable declaration is hoisted, but
+// until the variable assignment is reached at runtime, the expression will not be loaded.
+
+// Named Function Expression
+
+var catSays = function meow(max) {
+	var catMessage = "";
+  	for (var i = 0; i < max; i++) {
+    	catMessage += "meow ";
+  	}
+    return catMessage;
+}
+
+// you still call the function by catSays(arg);
+
+// Function expression that assigns the function displayFavorite 
+// to the variable favoriteMovie
+var favoriteMovie = function displayFavorite(movieName) {
+  console.log("My favorite movie is " + movieName);
+};
+
+// Function declaration that has two parameters: a function for displaying
+// a message, along with a name of a movie
+function movies(messageFunction, name) {
+  messageFunction(name);
+}
+
+// Call the movies function, pass in the favoriteMovie function and name of movie
+movies(favoriteMovie, "Finding Nemo");
+
+// IS THE SAME AS INLINE FUNCTION:
+
+function movies(messageFunction, name) {
+	messageFunction(name);
+}
+// displayFavorite is declared as an inline function and passed as an argument to movies();
+movies(function displayFavorite(movieName) {
+	console.log('My favorite movie is ' + movieName);
+}, 'Finding Nemo');
+
+// returns 'My favorite movie is Finding Nemo'
+// this is typically used when you are just going to be using the function one time.

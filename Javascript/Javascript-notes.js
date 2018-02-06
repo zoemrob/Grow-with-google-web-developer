@@ -128,5 +128,45 @@ movies(function displayFavorite(movieName) {
 	with an abstract class, extend the class, and have the `constructor` evaluate a conditional statement, 
 	and if it is true: assign the inherited abstract or interface method one function expression,
 	if it is false: assign the inherited abstract or interface method another function expression.
-	
+
 */
+
+// When using nested arrays:
+// think about them as rows and columns.
+var donutBox = [
+['glazed', 'chocolate glazed', 'cinnamon'],
+['powdered', 'sprinkled', 'glazed cruller'],
+['chocolate cruller', 'Boston cream', 'creme de leche']]
+
+for (let row = 0; row < donutBox.length; row++) {
+	// here, this loops through one indexed array in the home array at a time
+	for (let column = 0; column < donutBox[row]; coolumn++) {
+		// here, we are looping over each index of the first nested array.
+		console.log(donutBox[row][column]);
+	}
+}
+
+// in Javascript objects, properties are variables, and functions are methods
+var umbrella = {
+    color: "pink", // property: color
+    isOpen: true, // property: isOpen
+    open: function() { // method: open()
+        if (umbrella.isOpen === true) {
+            return "The umbrella is already opened!";
+        } else {
+            umbrella.isOpen = true;
+            return "Julia opens the umbrella!";
+        }
+    },
+    close: function() { // method: close()
+        if (umbrella.isOpen === false) {
+        return 'The umbrella is already closed!';
+        } else {
+            umbrella.isOpen = false;
+            return 'Julia closes the umbrella!';
+        }
+    }
+};
+
+// access properties within the object with . notation
+// example: return 'Julia opens the ' + umbrella.color + ' umbrella!'

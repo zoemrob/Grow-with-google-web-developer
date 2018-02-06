@@ -170,3 +170,15 @@ var umbrella = {
 
 // access properties within the object with . notation
 // example: return 'Julia opens the ' + umbrella.color + ' umbrella!'
+
+// Looping through an array with nested objects:
+var donuts = [
+    { type: "Jelly", cost: 1.22 },
+    { type: "Chocolate", cost: 2.45 },
+    { type: "Cider", cost: 1.59 },
+    { type: "Boston Cream", cost: 5.99 }
+];
+
+donuts.forEach(function(donut) {
+    console.log(donut.type + ' donuts cost $' + donut.cost + ' each');
+});
